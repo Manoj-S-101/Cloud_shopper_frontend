@@ -1,0 +1,47 @@
+.item{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(251, 246, 243);
+}
+.item img{
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
+}
+.item .name{
+    font-size: 12px;
+    font-weight: 500;
+    height: auto;
+}
+.item .product-price{
+    display: flex;
+    align-items: center;
+    font-weight: 12px;
+    gap: 30px;
+}
+.product-price .new-price{
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.product-price .old-price{
+    text-decoration: line-through;
+    color: rgb(91, 91, 91);
+}
+.item img:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+@media(max-width:570px){
+    .item{
+        width: 150px;
+        height: 300px;
+    }
+    .item img{
+        width: 150px;
+        height: 200px;
+        object-fit: contain;
+    }
+}

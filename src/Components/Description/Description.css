@@ -1,0 +1,32 @@
+.Description{
+    margin: 40px 40px;
+}
+.desc-title{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+}
+.desc-title p{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    height: 40px;
+    cursor: pointer;
+}
+.desc-title p:last-child{
+    background-color: rgb(245, 245, 245);
+}
+.Description .desc{
+    border: 1px solid black;
+    padding: 40px;
+    font-size: 14px;
+}
+@media(max-width:500px){
+    .Description .desc{
+        height: 400px;
+        overflow-y: scroll;
+    }
+}

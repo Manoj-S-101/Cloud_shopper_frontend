@@ -1,0 +1,49 @@
+.RelatedProducts{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.RelatedProducts h1{
+    margin: 10px;
+}
+.Related-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.more-btn{
+    margin: 30px 80px;;
+    display: flex;
+    justify-content: flex-end;
+}
+.more-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255 114 53);
+    color: white;
+    gap: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.more-btn button img{
+    filter: brightness(0) invert(1);
+}
+
+@media(max-width:500px){
+    .more-btn{
+        margin: 30px 40px;
+    }
+    .more-btn button{
+        width: 120px;
+        height: 35px;
+    }
+}
